@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #333, #555);
+    color: #fff;
+    padding: 5em;
+    text-align: center;
+}
+
+.policy {
+    padding: 2em;
+    margin: 2em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.policy h2 {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .hero {
+        padding: 2em;
+    }
+    .policy {
+        margin: 1em;
+    }
+}
